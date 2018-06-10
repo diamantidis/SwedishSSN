@@ -6,5 +6,5 @@ branches:
     - develop
     - master
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/SwedishSSN.xcworkspace -scheme SwedishSSN-Example -destination  'platform=iOS Simulator,name=iPhone 8 Plus,OS=11.4' ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/SwedishSSN.xcworkspace -scheme SwedishSSN-Example -destination  'platform=iOS Simulator,name=iPhone 7,OS=11.3' ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
