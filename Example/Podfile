@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwedishSSN_Tests' do
+  pod 'SwedishSSN', :path => '../'
+  
+  
+end
