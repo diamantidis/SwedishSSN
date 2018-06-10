@@ -1,0 +1,75 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ioannisdiamantidis/projects/Pods/SwedishSSN/SwedishSSN/Classes/SwedishSSN.swift",
+      "line": 197,
+      "symbol": "SwedishSSN.update(century:withSeperator:withYear:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ioannisdiamantidis/projects/Pods/SwedishSSN/SwedishSSN/Classes/SwedishSSN.swift",
+      "line": 214,
+      "symbol": "SwedishSSN.currentYear",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ioannisdiamantidis/projects/Pods/SwedishSSN/SwedishSSN/Classes/SwedishSSN.swift",
+      "line": 221,
+      "symbol": "SwedishSSN.isValidDate(century:year:month:day:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ioannisdiamantidis/projects/Pods/SwedishSSN/SwedishSSN/Classes/SwedishSSN.swift",
+      "line": 231,
+      "symbol": "SwedishSSN.isLuhnValid(number:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ioannisdiamantidis/projects/Pods/SwedishSSN/SwedishSSN/Classes/SwedishSSN.swift",
+      "line": 252,
+      "symbol": "SwedishSSN.isPersonummerValid(century:year:month:day:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ioannisdiamantidis/projects/Pods/SwedishSSN/SwedishSSN/Classes/SwedishSSN.swift",
+      "line": 256,
+      "symbol": "SwedishSSN.isSamordningsnummerValid(century:year:month:day:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ioannisdiamantidis/projects/Pods/SwedishSSN/SwedishSSN/Classes/SwedishSSN.swift",
+      "line": 265,
+      "symbol": "SwedishSSN.isOrganisationsnummer(month:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ioannisdiamantidis/projects/Pods/SwedishSSN/SwedishSSN/Classes/SwedishSSN.swift",
+      "line": 272,
+      "symbol": "SwedishSSN.getGender(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ioannisdiamantidis/projects/Pods/SwedishSSN/SwedishSSN/Classes/SwedishSSN.swift",
+      "line": 280,
+      "symbol": "SwedishSSN.getCompanyType(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ioannisdiamantidis/projects/Pods/SwedishSSN/SwedishSSN/Classes/SwedishSSN.swift",
+      "line": 308,
+      "symbol": "String.getValue(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ioannisdiamantidis/projects/Pods/SwedishSSN"
+}

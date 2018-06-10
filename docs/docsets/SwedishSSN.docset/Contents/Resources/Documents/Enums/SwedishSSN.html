@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SwedishSSN Enumeration Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Enum/SwedishSSN" class="dashAnchor"></a>
+    <a title="SwedishSSN Enumeration Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">SwedishSSN Docs</a> (100% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">SwedishSSN Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        SwedishSSN Enumeration Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/SwedishSSN.html">SwedishSSN</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SwedishSSN/CompanyType.html">– CompanyType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SwedishSSN/Gender.html">– Gender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SwedishSSN/Seperator.html">– Seperator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>SwedishSSN</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">SwedishSSN</span></code></pre>
+
+                </div>
+              </div>
+            <p>An enum to validate and extract information from a string that represents a Swedish Social Security Number.
+It can have the following values:</p>
+
+<ul>
+<li>personnummer</li>
+<li>samordningsnummer</li>
+<li>organisationsnummer</li>
+<li>invalid</li>
+</ul>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO12personnummerA2B6GenderOSg6gender_tcABmF"></a>
+                    <a name="//apple_ref/swift/Element/personnummer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO12personnummerA2B6GenderOSg6gender_tcABmF">personnummer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The string represents a valid <code>personnummer</code>. It also contains the information about the gender</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">personnummer</span><span class="p">(</span><span class="nv">gender</span><span class="p">:</span> <span class="kt">SwedishSSN</span><span class="o">.</span><span class="kt"><a href="../Enums/SwedishSSN/Gender.html">Gender</a></span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO17samordningsnummerA2B6GenderOSg6gender_tcABmF"></a>
+                    <a name="//apple_ref/swift/Element/samordningsnummer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO17samordningsnummerA2B6GenderOSg6gender_tcABmF">samordningsnummer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The string represents a valid <code>samordningsnummer</code>. It also contains the information about the gender</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">samordningsnummer</span><span class="p">(</span><span class="nv">gender</span><span class="p">:</span> <span class="kt">SwedishSSN</span><span class="o">.</span><span class="kt"><a href="../Enums/SwedishSSN/Gender.html">Gender</a></span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO19organisationsnummerA2B11CompanyTypeO07companyE0_tcABmF"></a>
+                    <a name="//apple_ref/swift/Element/organisationsnummer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO19organisationsnummerA2B11CompanyTypeO07companyE0_tcABmF">organisationsnummer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The string represents a valid <code>organisationsnummer</code>. It also contains the information about the company type</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">organisationsnummer</span><span class="p">(</span><span class="nv">companyType</span><span class="p">:</span> <span class="kt">SwedishSSN</span><span class="o">.</span><span class="kt"><a href="../Enums/SwedishSSN/CompanyType.html">CompanyType</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO7invalidA2BmF"></a>
+                    <a name="//apple_ref/swift/Element/invalid" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO7invalidA2BmF">invalid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The string is invalid and cannot represent a <code><a href="../Enums/SwedishSSN.html#/s:10SwedishSSNAAO12personnummerA2B6GenderOSg6gender_tcABmF">personnummer</a></code>, a <code><a href="../Enums/SwedishSSN.html#/s:10SwedishSSNAAO17samordningsnummerA2B6GenderOSg6gender_tcABmF">samordningsnummer</a></code> or an <code><a href="../Enums/SwedishSSN.html#/s:10SwedishSSNAAO19organisationsnummerA2B11CompanyTypeO07companyE0_tcABmF">organisationsnummer</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">invalid</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO11CompanyTypeO"></a>
+                    <a name="//apple_ref/swift/Enum/CompanyType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO11CompanyTypeO">CompanyType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The type that a company can have if it is an <code><a href="../Enums/SwedishSSN.html#/s:10SwedishSSNAAO19organisationsnummerA2B11CompanyTypeO07companyE0_tcABmF">organisationsnummer</a></code>
+Based on <a href="https://sv.wikipedia.org/wiki/Organisationsnummer">WIkipedia</a>, it can have the following values</p>
+
+<ul>
+<li>dödsbon</li>
+<li>offentlig</li>
+<li>utländskaFöretag</li>
+<li>aktiebolag</li>
+<li>enkeltbolag</li>
+<li>ekonomiskFörening</li>
+<li>ideellFörening</li>
+<li>handelsKommanditBolag</li>
+<li>invalid</li>
+</ul>
+
+                        <a href="../Enums/SwedishSSN/CompanyType.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">CompanyType</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO6GenderO"></a>
+                    <a name="//apple_ref/swift/Enum/Gender" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO6GenderO">Gender</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The gender if it is a <code><a href="../Enums/SwedishSSN.html#/s:10SwedishSSNAAO12personnummerA2B6GenderOSg6gender_tcABmF">personnummer</a></code> or <code><a href="../Enums/SwedishSSN.html#/s:10SwedishSSNAAO17samordningsnummerA2B6GenderOSg6gender_tcABmF">samordningsnummer</a></code>.
+It can have the following values:</p>
+
+<ul>
+<li>male</li>
+<li>female</li>
+</ul>
+
+                        <a href="../Enums/SwedishSSN/Gender.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Gender</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO9SeperatorO"></a>
+                    <a name="//apple_ref/swift/Enum/Seperator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO9SeperatorO">Seperator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An enum that contains the available seerators.</p>
+
+                        <a href="../Enums/SwedishSSN/Seperator.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">Seperator</span> <span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAOABSScfc"></a>
+                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAOABSScfc">init(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enum&rsquo;s initializer. Expects a string as a parameter, and based on it, it sets the correct value to <code>self</code>.
+By default, it is <code><a href="../Enums/SwedishSSN.html#/s:10SwedishSSNAAO7invalidA2BmF">.invalid</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">_</span> <span class="nv">ssn</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>ssn</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A string representing the Swedish Social Security Number</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO12PNOPartsType33_2BB810589EBFE6E1AB797DA36476F371LLa"></a>
+                    <a name="//apple_ref/swift/Alias/PNOPartsType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO12PNOPartsType33_2BB810589EBFE6E1AB797DA36476F371LLa">PNOPartsType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Typealias that represents a tuple with all the parts of the personnummer.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">typealias</span> <span class="kt">PNOPartsType</span> <span class="o">=</span> <span class="p">(</span><span class="nv">century</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">year</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">month</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">day</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">seperator</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">num</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">checksum</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO11getPNOParts33_2BB810589EBFE6E1AB797DA36476F371LLSS7century_SS4yearSS5monthSS3daySS9seperatorSS3numSS8checksumtSgSS03forB0_tF"></a>
+                    <a name="//apple_ref/swift/Method/getPNOParts(forSSN:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO11getPNOParts33_2BB810589EBFE6E1AB797DA36476F371LLSS7century_SS4yearSS5monthSS3daySS9seperatorSS3numSS8checksumtSgSS03forB0_tF">getPNOParts(forSSN:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Function which takes as an argument a string and return tuple with all the different parts of the personummer.
+If the data is invalid, it returns nil</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">getPNOParts</span><span class="p">(</span><span class="n">forSSN</span> <span class="nv">ssn</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/SwedishSSN.html#/s:10SwedishSSNAAO12PNOPartsType33_2BB810589EBFE6E1AB797DA36476F371LLa">PNOPartsType</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>ssn</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A string representing the Swedish Social Security Number</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>If ssn is valid, it returns a tuple with all the different parts of the personummer.
+Otherwise, it returns nil</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO6update33_2BB810589EBFE6E1AB797DA36476F371LLS2S9seperator_SS11withCenturySS0K4YeartF"></a>
+                    <a name="//apple_ref/swift/Method/update(seperator:withCentury:withYear:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO6update33_2BB810589EBFE6E1AB797DA36476F371LLS2S9seperator_SS11withCenturySS0K4YeartF">update(seperator:withCentury:withYear:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A function to update the seperator if it is missing or if its invalid, based on the century and year.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">seperator</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">withCentury</span> <span class="nv">century</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">withYear</span> <span class="nv">year</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>seperator</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The current seperator. It can be a valid seperator(-, +), an empty (&ldquo;&rdquo;) or an invalid.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>century</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The century. It is the 2 first digits of a 12-digit ssn. It can be empty, in case of 10-digit ssn.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>year</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The year.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An update seperator depending on the parameters</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO6update33_2BB810589EBFE6E1AB797DA36476F371LLS2S7century_SS13withSeperatorSS0K4YeartF"></a>
+                    <a name="//apple_ref/swift/Method/update(century:withSeperator:withYear:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO6update33_2BB810589EBFE6E1AB797DA36476F371LLS2S7century_SS13withSeperatorSS0K4YeartF">update(century:withSeperator:withYear:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A function to update the century if it is missing, based on the seperator and year.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">century</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">withSeperator</span> <span class="nv">seperator</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">withYear</span> <span class="nv">year</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>century</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The current value of century.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>seperator</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The current value of seperator, after being updated.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>year</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The year</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An updated value of the century, depending on the parameters</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO11currentYear33_2BB810589EBFE6E1AB797DA36476F371LLSivp"></a>
+                    <a name="//apple_ref/swift/Property/currentYear" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO11currentYear33_2BB810589EBFE6E1AB797DA36476F371LLSivp">currentYear</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Property to get the value of the current year</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">currentYear</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO11isValidDate33_2BB810589EBFE6E1AB797DA36476F371LLSbSS7century_SS4yearSS5monthSS3daytF"></a>
+                    <a name="//apple_ref/swift/Method/isValidDate(century:year:month:day:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO11isValidDate33_2BB810589EBFE6E1AB797DA36476F371LLSbSS7century_SS4yearSS5monthSS3daytF">isValidDate(century:year:month:day:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Function to validate if a the date, that the first digits of ssn represent, is valid</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">isValidDate</span><span class="p">(</span><span class="nv">century</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">year</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">month</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">day</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>century</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The century</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>year</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The year</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>month</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The month</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>day</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The day</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if date components are valid. Otherwise, false</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO11isLuhnValid33_2BB810589EBFE6E1AB797DA36476F371LLSbSS6number_tF"></a>
+                    <a name="//apple_ref/swift/Method/isLuhnValid(number:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO11isLuhnValid33_2BB810589EBFE6E1AB797DA36476F371LLSbSS6number_tF">isLuhnValid(number:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Function to validate if ssn represent a valid number according to Luhn Algorithm</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">isLuhnValid</span><span class="p">(</span><span class="nv">number</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>number</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The number in string format</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if it is a valid number according to Luhn Algorithm. Otherwise false.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO18isPersonummerValid33_2BB810589EBFE6E1AB797DA36476F371LLSbSS7century_SS4yearSS5monthSS3daytF"></a>
+                    <a name="//apple_ref/swift/Method/isPersonummerValid(century:year:month:day:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO18isPersonummerValid33_2BB810589EBFE6E1AB797DA36476F371LLSbSS7century_SS4yearSS5monthSS3daytF">isPersonummerValid(century:year:month:day:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Function to validate if the data corresponds to a valid Personnummer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">isPersonummerValid</span><span class="p">(</span><span class="nv">century</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">year</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">month</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">day</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>century</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The century</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>year</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The year</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>month</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The month</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>day</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The day</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if it a valid personnumer. Otherwise false</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO24isSamordningsnummerValid33_2BB810589EBFE6E1AB797DA36476F371LLSbSS7century_SS4yearSS5monthSS3daytF"></a>
+                    <a name="//apple_ref/swift/Method/isSamordningsnummerValid(century:year:month:day:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO24isSamordningsnummerValid33_2BB810589EBFE6E1AB797DA36476F371LLSbSS7century_SS4yearSS5monthSS3daytF">isSamordningsnummerValid(century:year:month:day:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Function to validate if the data corresponds to a valid Samordningsnummer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">isSamordningsnummerValid</span><span class="p">(</span><span class="nv">century</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">year</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">month</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">day</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>century</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The century</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>year</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The year</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>month</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The month</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>day</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The day</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if it a valid samordningsnummer. Otherwise false</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO21isOrganisationsnummer33_2BB810589EBFE6E1AB797DA36476F371LLSbSS5month_tF"></a>
+                    <a name="//apple_ref/swift/Method/isOrganisationsnummer(month:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO21isOrganisationsnummer33_2BB810589EBFE6E1AB797DA36476F371LLSbSS5month_tF">isOrganisationsnummer(month:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Function to validate if the data corresponds to a valid Organisationsnummer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">isOrganisationsnummer</span><span class="p">(</span><span class="nv">month</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>month</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The month</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if it a valid organisationsnummer. Otherwise false</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO9getGender33_2BB810589EBFE6E1AB797DA36476F371LLAB0D0OSgSS3for_tF"></a>
+                    <a name="//apple_ref/swift/Method/getGender(for:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO9getGender33_2BB810589EBFE6E1AB797DA36476F371LLAB0D0OSgSS3for_tF">getGender(for:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Function to get the gender based on the second to last number</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">getGender</span><span class="p">(</span><span class="k">for</span> <span class="nv">number</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/SwedishSSN/Gender.html">Gender</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>number</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A number</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>.female if the number is even. .male if number is odd</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10SwedishSSNAAO14getCompanyType33_2BB810589EBFE6E1AB797DA36476F371LLAB0dE0OSS3for_tF"></a>
+                    <a name="//apple_ref/swift/Method/getCompanyType(for:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SwedishSSNAAO14getCompanyType33_2BB810589EBFE6E1AB797DA36476F371LLAB0dE0OSS3for_tF">getCompanyType(for:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Function to get the company type base on the first number</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">getCompanyType</span><span class="p">(</span><span class="k">for</span> <span class="nv">number</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/SwedishSSN/CompanyType.html">CompanyType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>number</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A number</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the corresponding company type based on the parameter</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/diamantidis/SwedishSSN" target="_blank" rel="external">diamantidis</a>. All rights reserved. (Last updated: 2018-06-10)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
