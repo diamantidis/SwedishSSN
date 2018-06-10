@@ -1,0 +1,7 @@
+author: Ioannis Diamantidis
+author_url: https://github.com/diamantidis
+github_url: https://github.com/diamantidis/SwedishSSN
+root_url: https://github.com/diamantidis/SwedishSSN
+module: SwedishSSN
+output: docs
+theme: fullwidth

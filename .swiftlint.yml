@@ -1,5 +1,6 @@
 excluded: # paths to ignore during linting. Takes precedence over `included`.
   - Pods
+  - docs
 
 opt_in_rules:
   - switch_case_on_newline
