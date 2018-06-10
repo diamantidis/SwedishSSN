@@ -1,0 +1,16 @@
+PODS:
+  - SwedishSSN (0.1.0)
+
+DEPENDENCIES:
+  - SwedishSSN (from `../`)
+
+EXTERNAL SOURCES:
+  SwedishSSN:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwedishSSN: 394ba83294f928f0fd9f0fb05b565b37b426d606
+
+PODFILE CHECKSUM: b53b3f01725c603bc3ccb4697394e9dcec45133b
+
+COCOAPODS: 1.5.0

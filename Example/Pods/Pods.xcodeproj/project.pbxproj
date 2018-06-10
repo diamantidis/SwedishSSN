@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B659A3143CC4A77CBC8106AB572EFE6 /* Pods-SwedishSSN_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE7443C30949BB9A86C4CA0795A94BC /* Pods-SwedishSSN_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59EBC6DA2665C7B55A2EFCA849ABEEA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		74EFCB95F57A43FF21460B5593392A8D /* Pods-SwedishSSN_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9B0199E237DB0B351C9D0BE4DB367 /* Pods-SwedishSSN_Tests-dummy.m */; };
+		B3C25EC17BAC0926FCE70372E1DA7811 /* SwedishSSN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E193CAA8AD4F5D12C9057A3F7B8A8 /* SwedishSSN.swift */; };
+		BFD9E9A11750DBA9C6844AEAAB02AC2E /* SwedishSSN-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D4FC037F638E2C07B3A2DAC0BFC9BE /* SwedishSSN-dummy.m */; };
+		C4AF2A54A8C6AB8A0B33EA4393F1B76F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		ECDBDD5FE6C64C54A80C331FD3166E5D /* SwedishSSN-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A91AADA7AED68A87612B046F562EEA45 /* SwedishSSN-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4DCAB73E927700E77ECB0D321996772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF9A3DAFC301065A70371001274B0EB;
+			remoteInfo = SwedishSSN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D4FC037F638E2C07B3A2DAC0BFC9BE /* SwedishSSN-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwedishSSN-dummy.m"; sourceTree = "<group>"; };
+		146C99C76FDE9C32BCCB66C2EE2CF147 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		18ABC5A32AF68E6002A1B33BCEC47699 /* Pods-SwedishSSN_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwedishSSN_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		26CBFF023548710883FD1FA2FFB04EEF /* Pods-SwedishSSN_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwedishSSN_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BFE1EF807AE3F8C6DABB23663C06573 /* Pods-SwedishSSN_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwedishSSN_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4BF0777D5EC437F2FF6A7995106B5956 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		579E193CAA8AD4F5D12C9057A3F7B8A8 /* SwedishSSN.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwedishSSN.swift; path = SwedishSSN/Classes/SwedishSSN.swift; sourceTree = "<group>"; };
+		5CC47F6E48822A284E567F98A3BE009B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5EF7B3631F65790E4C3D77AD013C31 /* Pods-SwedishSSN_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwedishSSN_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		613B7DC321C9DEDC02F7F2944BBB0D57 /* Pods-SwedishSSN_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwedishSSN_Tests.modulemap"; sourceTree = "<group>"; };
+		63DEDB2E6C0375F1EF2141C96DAE99D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F7D1B3C7D30720E8A1D456CC987F23C /* SwedishSSN.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwedishSSN.modulemap; sourceTree = "<group>"; };
+		7CD26CF1C3C5074A4F3768B5A02BA04F /* Pods_SwedishSSN_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwedishSSN_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB9B0199E237DB0B351C9D0BE4DB367 /* Pods-SwedishSSN_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwedishSSN_Tests-dummy.m"; sourceTree = "<group>"; };
+		8EE7443C30949BB9A86C4CA0795A94BC /* Pods-SwedishSSN_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwedishSSN_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A91AADA7AED68A87612B046F562EEA45 /* SwedishSSN-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwedishSSN-umbrella.h"; sourceTree = "<group>"; };
+		BD4CF1FC793B9D18B6208F53F871C5F0 /* SwedishSSN-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwedishSSN-prefix.pch"; sourceTree = "<group>"; };
+		C12F8743749FF00C5BD82FA6D507E2AB /* SwedishSSN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwedishSSN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C942CD8127DBE0D56773E5B9E86F49AA /* Pods-SwedishSSN_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwedishSSN_Tests-resources.sh"; sourceTree = "<group>"; };
+		E1ABC3D587DFA497FDC8FB26506307DD /* SwedishSSN.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwedishSSN.xcconfig; sourceTree = "<group>"; };
+		E6BA11D6E841D4398CFD5C8D18B9EBD2 /* SwedishSSN.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SwedishSSN.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F1E8897E5F3822E75F27CBA531B00174 /* Pods-SwedishSSN_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwedishSSN_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88A2E0EEA75AC438AA7137BE8423F81C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EBC6DA2665C7B55A2EFCA849ABEEA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B8FA8FFBA27CBFF4CE79591CCAB655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AF2A54A8C6AB8A0B33EA4393F1B76F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0970C46AAF02104E3E58C3E8BE4C9FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CD26CF1C3C5074A4F3768B5A02BA04F /* Pods_SwedishSSN_Tests.framework */,
+				C12F8743749FF00C5BD82FA6D507E2AB /* SwedishSSN.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA88BB77F94B7FF68CB72483060BEC3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0E60E8465273993E0902E5D83D5CA32 /* Pods-SwedishSSN_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		486437FA399E86FF41932E974D0D0B01 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE8D53A54E8E9DB0C8F0632E2478C20F /* SwedishSSN */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				486437FA399E86FF41932E974D0D0B01 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0970C46AAF02104E3E58C3E8BE4C9FFB /* Products */,
+				3FA88BB77F94B7FF68CB72483060BEC3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C86B9AC5EB973C2F8C90E4ADAFBFFC3D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				146C99C76FDE9C32BCCB66C2EE2CF147 /* LICENSE */,
+				4BF0777D5EC437F2FF6A7995106B5956 /* README.md */,
+				E6BA11D6E841D4398CFD5C8D18B9EBD2 /* SwedishSSN.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CE8D53A54E8E9DB0C8F0632E2478C20F /* SwedishSSN */ = {
+			isa = PBXGroup;
+			children = (
+				579E193CAA8AD4F5D12C9057A3F7B8A8 /* SwedishSSN.swift */,
+				C86B9AC5EB973C2F8C90E4ADAFBFFC3D /* Pod */,
+				DACFE35E8367F3A95C1B1D731BC8AB72 /* Support Files */,
+			);
+			name = SwedishSSN;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DACFE35E8367F3A95C1B1D731BC8AB72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63DEDB2E6C0375F1EF2141C96DAE99D2 /* Info.plist */,
+				6F7D1B3C7D30720E8A1D456CC987F23C /* SwedishSSN.modulemap */,
+				E1ABC3D587DFA497FDC8FB26506307DD /* SwedishSSN.xcconfig */,
+				03D4FC037F638E2C07B3A2DAC0BFC9BE /* SwedishSSN-dummy.m */,
+				BD4CF1FC793B9D18B6208F53F871C5F0 /* SwedishSSN-prefix.pch */,
+				A91AADA7AED68A87612B046F562EEA45 /* SwedishSSN-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwedishSSN";
+			sourceTree = "<group>";
+		};
+		F0E60E8465273993E0902E5D83D5CA32 /* Pods-SwedishSSN_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5CC47F6E48822A284E567F98A3BE009B /* Info.plist */,
+				613B7DC321C9DEDC02F7F2944BBB0D57 /* Pods-SwedishSSN_Tests.modulemap */,
+				26CBFF023548710883FD1FA2FFB04EEF /* Pods-SwedishSSN_Tests-acknowledgements.markdown */,
+				F1E8897E5F3822E75F27CBA531B00174 /* Pods-SwedishSSN_Tests-acknowledgements.plist */,
+				8DB9B0199E237DB0B351C9D0BE4DB367 /* Pods-SwedishSSN_Tests-dummy.m */,
+				3BFE1EF807AE3F8C6DABB23663C06573 /* Pods-SwedishSSN_Tests-frameworks.sh */,
+				C942CD8127DBE0D56773E5B9E86F49AA /* Pods-SwedishSSN_Tests-resources.sh */,
+				8EE7443C30949BB9A86C4CA0795A94BC /* Pods-SwedishSSN_Tests-umbrella.h */,
+				18ABC5A32AF68E6002A1B33BCEC47699 /* Pods-SwedishSSN_Tests.debug.xcconfig */,
+				5D5EF7B3631F65790E4C3D77AD013C31 /* Pods-SwedishSSN_Tests.release.xcconfig */,
+			);
+			name = "Pods-SwedishSSN_Tests";
+			path = "Target Support Files/Pods-SwedishSSN_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8C91BA158DD5D248821F1DB1B4E45400 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDBDD5FE6C64C54A80C331FD3166E5D /* SwedishSSN-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F3E56934B972977CE73785F381BC80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B659A3143CC4A77CBC8106AB572EFE6 /* Pods-SwedishSSN_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		426BDB8166D2D4252422C296BC940D39 /* Pods-SwedishSSN_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641708EFFA5DE56765A0C00E48792CC4 /* Build configuration list for PBXNativeTarget "Pods-SwedishSSN_Tests" */;
+			buildPhases = (
+				D23D9FF3477F5BF2D2458261171CBCDC /* Sources */,
+				A9B8FA8FFBA27CBFF4CE79591CCAB655 /* Frameworks */,
+				A3F3E56934B972977CE73785F381BC80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF13B219E058E5249CB9E4EED7A982B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwedishSSN_Tests";
+			productName = "Pods-SwedishSSN_Tests";
+			productReference = 7CD26CF1C3C5074A4F3768B5A02BA04F /* Pods_SwedishSSN_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCF9A3DAFC301065A70371001274B0EB /* SwedishSSN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34A468575D2D22E8B40F489D8305265 /* Build configuration list for PBXNativeTarget "SwedishSSN" */;
+			buildPhases = (
+				3D52DE6E955E986A79F9FD2C42260660 /* Sources */,
+				88A2E0EEA75AC438AA7137BE8423F81C /* Frameworks */,
+				8C91BA158DD5D248821F1DB1B4E45400 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwedishSSN;
+			productName = SwedishSSN;
+			productReference = C12F8743749FF00C5BD82FA6D507E2AB /* SwedishSSN.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0970C46AAF02104E3E58C3E8BE4C9FFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				426BDB8166D2D4252422C296BC940D39 /* Pods-SwedishSSN_Tests */,
+				DCF9A3DAFC301065A70371001274B0EB /* SwedishSSN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D52DE6E955E986A79F9FD2C42260660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C25EC17BAC0926FCE70372E1DA7811 /* SwedishSSN.swift in Sources */,
+				BFD9E9A11750DBA9C6844AEAAB02AC2E /* SwedishSSN-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23D9FF3477F5BF2D2458261171CBCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EFCB95F57A43FF21460B5593392A8D /* Pods-SwedishSSN_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF13B219E058E5249CB9E4EED7A982B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwedishSSN;
+			target = DCF9A3DAFC301065A70371001274B0EB /* SwedishSSN */;
+			targetProxy = E4DCAB73E927700E77ECB0D321996772 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13B50C9435C366114443A94BC0AC1560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5EF7B3631F65790E4C3D77AD013C31 /* Pods-SwedishSSN_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwedishSSN_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwedishSSN_Tests/Pods-SwedishSSN_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E0D80DB84AEDAE794728C6FF2DCC686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1ABC3D587DFA497FDC8FB26506307DD /* SwedishSSN.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwedishSSN/SwedishSSN-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwedishSSN/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwedishSSN/SwedishSSN.modulemap";
+				PRODUCT_MODULE_NAME = SwedishSSN;
+				PRODUCT_NAME = SwedishSSN;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C0FCC98340185460D992DC318B37367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18ABC5A32AF68E6002A1B33BCEC47699 /* Pods-SwedishSSN_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwedishSSN_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwedishSSN_Tests/Pods-SwedishSSN_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DCD5D79EEE3ABED27F6056704D5CA60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1ABC3D587DFA497FDC8FB26506307DD /* SwedishSSN.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwedishSSN/SwedishSSN-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwedishSSN/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwedishSSN/SwedishSSN.modulemap";
+				PRODUCT_MODULE_NAME = SwedishSSN;
+				PRODUCT_NAME = SwedishSSN;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641708EFFA5DE56765A0C00E48792CC4 /* Build configuration list for PBXNativeTarget "Pods-SwedishSSN_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0FCC98340185460D992DC318B37367 /* Debug */,
+				13B50C9435C366114443A94BC0AC1560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34A468575D2D22E8B40F489D8305265 /* Build configuration list for PBXNativeTarget "SwedishSSN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0D80DB84AEDAE794728C6FF2DCC686 /* Debug */,
+				9DCD5D79EEE3ABED27F6056704D5CA60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

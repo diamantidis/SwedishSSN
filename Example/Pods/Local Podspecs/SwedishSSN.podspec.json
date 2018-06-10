@@ -1,0 +1,22 @@
+{
+  "name": "SwedishSSN",
+  "version": "0.1.0",
+  "summary": "A short description of SwedishSSN.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/diamantidis/SwedishSSN",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "diamantidis": "diamantidis@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/diamantidis/SwedishSSN.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwedishSSN/Classes/**/*"
+}

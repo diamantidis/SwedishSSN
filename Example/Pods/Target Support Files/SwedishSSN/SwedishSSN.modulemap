@@ -1,0 +1,6 @@
+framework module SwedishSSN {
+  umbrella header "SwedishSSN-umbrella.h"
+
+  export *
+  module * { export * }
+}
