@@ -1,0 +1,137 @@
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+  - docs
+
+opt_in_rules:
+  - switch_case_on_newline
+  - no_extension_access_modifier
+  - conditional_returns_on_newline
+  - operator_usage_whitespace
+  - no_grouping_extension
+  - sorted_imports
+    
+force_cast: error
+force_try: error
+line_length: 120
+
+file_length:
+  warning: 500
+  error: 800
+  ignore_comment_only_lines: true
+
+type_body_length:
+  - 300 # warning
+  - 400 # error
+
+custom_rules:
+  unnecessary_datatype:
+    name: "Unnecessary Datatype"
+    regex: '(?m-s)(let|var).*(:\s\[+(\w|:| |\t)+\]+\s*=\s*\[:*\])'
+    message: "Unnecessary datatype. Use '= [DataType]()' instead of ': [DataType] = []'"
+    severity: warning
+  missing_closure_name:
+    name: "Missing closure name"
+    regex: '^\s*\}\) \{.*'
+    message: "Add the missing closure name"
+    severity: warning
+  empty_commented_line:
+    name: "Empty Commented Out Line"
+    regex: '(\t+| +)//\n'
+    message: "Remove useless comment lines or use /* format */"
+    severity: warning
+  comments_space:
+    name: "Space After Comment"
+    regex: '(//\w+|///\w+)'
+    message: "There should be a space between the start of a comment and the first character."
+    severity: warning
+    match_kinds:
+      - comment
+      - doccomment
+      - doccomment.field
+  comments_capitalized_ignore_possible_code:
+    name: "Capitalize First Word In Comment"
+    regex: '(// +(?!swiftlint)[a-z]+)'
+    message: "The first word of a comment should be capitalized"
+    severity: warning
+    match_kinds:
+      - comment
+      - doccomment
+  empty_first_line:
+    name: "Empty First Line"
+    regex: '(extension|class) (?!(?:func))[^\{]*\{[^\n]*\n[\t ]*\w+'
+    message: "There should be an empty line after a class or extension declaration."
+    severity: warning
+    match_kinds:
+      - keyword
+      - typeidentifier
+      - identifier
+      - typeidentifier
+      - argument
+      - string
+      - objectliteral
+      - placeholder
+      - parameter
+      - attribute.builtin
+  unnecessary_leading_void_in:
+    name: "Unnecessary -> Void in at the end of the line"
+    regex: '(-> (Void|\(\)) in$)'
+    message: "Unnecessary '-> Void in' at the end of the line. Use only 'in'"
+    severity: warning
+  unnecessary_type:
+    name: "Unnecessary Type"
+    regex: '(?sm)[ \ta-zA-Z0-9]?(?:let|var){1} [ \ta-zA-Z0-9]+?:[ \t]+?([a-zA-Z0-9]+?)[\t ]+?=[\t ]?\1'
+    message: "Type Definition Not Needed"
+    severity: warning
+  empty_closure_params:
+    name: "Empty closure params"
+    regex: '\{ (\(\) -> Void in)$'
+    message: "`() -> Void in` should be avoided"
+    severity: warning
+  missing_closure_datatype:
+    name: "Missing Closure Data Type"
+    regex: '(\{[\s]{1}(\[weak [\w]+?\][\s]{1})*?\([^:]+?\)[\s]{1}in)'
+    message: "Data Type in Closure is missing"
+    severity: warning
+  invalid_mark_format:
+    name: "Invalid MARK Format"
+    regex: '(?m-s)(\/\/[\s]*?MARK(?!(\:[\s]{1}\-[\s]{1}){1}))'
+    message: "Use format: MARK: - Your Info"
+    severity: warning
+  unnecessary_space:
+    name: "Unnecessary Space"
+    regex: '(\[[a-zA-Z0-9]+? {1}: {1}[a-zA-Z0-9]+?\])'
+    message: "Unnecessary space. use [DataType: DataType]."
+    severity: warning
+  missing_space:
+    name: "Missing Space"
+    regex: '(\[[a-zA-Z0-9]+?:[a-zA-Z0-9]+?\])'
+    message: "Missing space. use [DataType: DataType]."
+    severity: warning
+  lowercase_constants:
+    name: "Lowercase Constants"
+    regex: '[ \t]let[ \t]*[A-Z][\w]*[ \t]*(=|:)'
+    message: "Constants should begin with a lowercase character."
+    severity: warning
+    match_kinds:
+      - argument
+      - attribute.builtin
+      - attribute.id
+      - buildconfig.id
+      - buildconfig.keyword
+      - comment
+      - comment.mark
+      - comment.url
+      - doccomment
+      - doccomment.field
+      - identifier
+      - keyword
+      - number
+      - objectliteral
+      - parameter
+      - placeholder
+      - typeidentifier
+  empty_lines_before_declaration_end:
+    name: "Empty lines before declaration end"
+    regex: '\n[ \t]*\n[ \t]*\}([ \t]*\n|\n)'
+    message: "Empty lines before a declaration aren't improving the readability."
+    severity: warning

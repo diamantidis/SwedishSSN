@@ -1,8 +1,8 @@
-import XCTest
 import SwedishSSN
+import XCTest
 
 class Tests: XCTestCase {
-    
+
     func testInvalidPNO() {
         let listOfPersonnummers: [String] = [
             "a",                    // Random 1 letter
@@ -19,7 +19,7 @@ class Tests: XCTestCase {
             XCTAssert(isInvalid(personnummer: personnummer), "Number \(personnummer) is not invalid")
         }
     }
-    
+
     func testValidPersonummer() {
         let listOfPersonnummers: [(personnummer: String, gender: SwedishSSN.Gender)] = [
             ("201212121212", .male),
@@ -33,7 +33,7 @@ class Tests: XCTestCase {
             ("189203184677", .male),
             ("19870321-5965", .female)
         ]
-        
+
         for item in listOfPersonnummers {
             XCTAssert(
                 isPersonnummer(personnummer: item.personnummer, with: item.gender),
@@ -41,9 +41,9 @@ class Tests: XCTestCase {
             )
         }
     }
-    
+
     func testValidSamordningsnummer() {
-        
+
         let listOfSamordningsnummers: [(samordningsnummer: String, gender: SwedishSSN.Gender)] = [
             ("201212721219", .male),
             ("191212721219", .male),
@@ -63,7 +63,7 @@ class Tests: XCTestCase {
             )
         }
     }
-    
+
     func testValidOrganisationsnummer() {
         let listOfOrganisationsnummers: [(organisationsnummer: String, type: SwedishSSN.CompanyType)] = [
             ("122122-1144", .dödsbon),
@@ -77,7 +77,7 @@ class Tests: XCTestCase {
             ("802005-4691", .ideellFörening),
             ("969719-5593", .handelsKommanditBolag)
         ]
-        
+
         for item in listOfOrganisationsnummers {
             XCTAssert(
                 isOrganisationsnummer(organisationsnummer: item.organisationsnummer, with: item.type),
@@ -85,9 +85,7 @@ class Tests: XCTestCase {
             )
         }
     }
-}
 
-private extension Tests {
     private func isInvalid(personnummer: String) -> Bool {
         if case SwedishSSN.invalid = SwedishSSN(personnummer) {
             return true
@@ -109,7 +107,7 @@ private extension Tests {
         }
         return actualGender == expectedGender
     }
-    
+
     private func isOrganisationsnummer(organisationsnummer: String, with expectedType: SwedishSSN.CompanyType) -> Bool {
         guard case SwedishSSN.organisationsnummer(let actualType) = SwedishSSN(organisationsnummer) else {
             return false

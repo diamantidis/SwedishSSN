@@ -90,6 +90,7 @@ Ioannis Diamantidis, diamantidis@outlook.com
 
 SwedishSSN is available under the MIT license. See the LICENSE file for more info.
 
+
 ## Acknowledgments
 
 * https://fejk.se for the fake data :stuck_out_tongue_winking_eye:
