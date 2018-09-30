@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/SwedishSSN.svg?style=flat)](https://cocoapods.org/pods/SwedishSSN)
 [![Platform](https://img.shields.io/cocoapods/p/SwedishSSN.svg?style=flat)](https://cocoapods.org/pods/SwedishSSN)
 [![Swift](https://img.shields.io/badge/Swift-4.0-blue.svg)](https://swift.org)
+[![codecov](https://codecov.io/gh/diamantidis/SwedishSSN/branch/master/graph/badge.svg)](https://codecov.io/gh/diamantidis/SwedishSSN)
 
 A swift library to validate and extract information from a string that represents a Swedish Social Security Number.
 
