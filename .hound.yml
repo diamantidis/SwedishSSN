@@ -1,2 +1,6 @@
 swift:
   config_file: .swiftlint.yml
+eslint:
+  enabled: false
+javascript:
+  enabled: false

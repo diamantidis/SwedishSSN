@@ -1,10 +1,16 @@
 osx_image: xcode9.3
-language: objective-c
-
+language: swift
 branches:
   only:
     - develop
     - master
+before_install:
+  - gem i slather --no-ri --no-rdoc
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/SwedishSSN.xcworkspace -scheme SwedishSSN-Example -destination  'platform=iOS Simulator,name=iPhone 7,OS=11.3' ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint
+  - set -o pipefail 
+  - xcodebuild clean build -workspace Example/SwedishSSN.xcworkspace -scheme SwedishSSN-Example -destination 'platform=iOS Simulator,name=iPhone 7,OS=11.3' ONLY_ACTIVE_ARCH=YES | xcpretty
+  - pod lib lint
+  - xcodebuild  test -enableCodeCoverage YES -workspace Example/SwedishSSN.xcworkspace -scheme SwedishSSN-Example -destination 'platform=iOS Simulator,name=iPhone 7' -derivedDataPath build ONLY_ACTIVE_ARCH=YES | xcpretty
+after_success:
+  - slather coverage -x --output-directory reports --scheme SwedishSSN-Example --binary-basename SwedishSSN --build-directory build Example/SwedishSSN.xcodeproj
+  - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
